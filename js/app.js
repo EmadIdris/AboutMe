@@ -153,7 +153,10 @@ for (let i = 0; i < 4; i++) {
     else {
         document.write("Q6:Incorrect Answer")
     }
+
 }
+alert("The Right Answer is Number 7");
+
 
 document.write('<br>')
 
