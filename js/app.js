@@ -144,11 +144,11 @@ for (let i = 0; i < 4; i++) {
     }
     else if (PickNumber > 7) {
         alert("Too High")
-
+        document.write("Q6:Too High")
     }
     else if (PickNumber < 7) {
         alert("Too Low")
-
+        document.write("Q6:Too Low")
     }
     else {
         document.write("Q6:Incorrect Answer")
@@ -203,6 +203,7 @@ for(let x=0 ; x<6;x++ )
     }
 }
 document.write('<br>')
+
 
 alert("The Correct Answers is : \n Messi \n Ronaldo \n Salah \n Mbappe \n Lewandowski \n Kane \n  Benzema ")
 
