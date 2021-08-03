@@ -155,6 +155,7 @@ for (let i = 0; i < 4; i++) {
     }
 
 }
+
 alert("The Right Answer is Number 7");
 
 
