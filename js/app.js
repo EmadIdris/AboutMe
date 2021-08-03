@@ -119,5 +119,5 @@ switch (Movies) {
         break;
 }
 
-let chooseNumber = 
+// let chooseNumber = 
 
