@@ -128,6 +128,8 @@ switch (Movies) {
 
 document.write('<br>')
 
+alert("Lets Play A Guessing game:");
+
 let PickNumber;
 
 for (let i = 0; i < 4; i++) {
