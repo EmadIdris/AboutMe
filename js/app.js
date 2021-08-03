@@ -131,7 +131,7 @@ document.write('<br>')
 let PickNumber;
 
 for (let i = 0; i < 4; i++) {
-    PickNumber = Number(prompt("Pick a Number : "));
+    PickNumber = Number(prompt("guessing game:  "));
 
     if (PickNumber === 7) {
         alert("Thats Right");
