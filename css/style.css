@@ -10,16 +10,16 @@ header
     margin-right: -8px; */
     border: 3px solid gold ;
     box-shadow: 5px 10px gold;
-    padding: 10px;
+    padding: 20px;
     
 }
 h1
 {
     font-size: 3em;
-    display: inline-block;
+    /* display: inline-block; */
     color: gold;
     font-variant: small-caps;
-    padding-left: 40%;
+    text-align: center;
 
 }
 
@@ -31,16 +31,19 @@ h1
     text-align: center;
 font-style: italic;
 font-size:20px;
-margin: 20px;
-border-radius: 25px;
+margin-top: 20px;
+margin-right: 0%;
+margin-left: 0%;
+margin-bottom: 20px;
+/* border-radius: 25px; */
 letter-spacing: 4px;
 color: gold;
 padding: 10px;
 }
-#para
-  {
+/* #para */
+  /* { */
       /* margin-top: 12px; */
-  border-width:5px;  
+  /* border-width:5px;  
     border-style:double;
 text-align: center;
 font-style: italic;
@@ -48,8 +51,8 @@ font-size:25px;
 letter-spacing: 4px;
 color: gold;
 margin-bottom: 20px;
-padding: 5px;
-  }
+padding: 5px; */
+  /* } */
   footer
 {
   
@@ -58,14 +61,44 @@ padding: 5px;
   border-color: gold;
     border-width: 4px;
     border-style: ridge;
-border-radius: 100px;
+/* border-radius: 100px; */
     font-family: "Sofia", sans-serif;
-    padding: auto;
-    margin-right: 200px;
-    margin-left: 200px;
+    padding: 20px;
+    margin-right: 0%;
+    margin-left: 0%;
     font-size: 30px;
     /* margin-left: -8px;
     margin-right: -8px;
     margin-top: 3px;
     margin-bottom: 3px; */
 }
+ol
+{
+    border-width:5px;  
+    border-style:double;
+    text-align: center;
+
+font-size:25px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 20px;
+/* border-radius: 25px; */
+letter-spacing: 4px;
+color: gold;
+padding: 10px;
+
+}
+ #AA
+ {
+     color: goldenrod;
+     padding-left: 15px;
+ }
+ #TT
+ {
+    font-size: 2em;
+    display: block;
+    color: gold;
+    font-variant: small-caps;
+    text-align: center;
+    
+ }
