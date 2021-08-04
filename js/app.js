@@ -212,6 +212,8 @@ q6();
 
 document.write('<br>')
 
+//q7
+function q7(){
 let myFavoritePlayer = ["Messi", "Ronaldo", "Salah", "Mbappe", "Lewandowski", "Kane", "Benzema"];
 // let Answer = prompt("Who is My Best Actor \n 1.Robert De Niro \n 2.Tom Hanks \n 3.Anthony Hopkins \n 4.Denzel Washington \n 5.Robin Williams \n 6.Morgan Freeman \n 7.Russell Crowe.");
 
@@ -253,6 +255,9 @@ for(let x=0 ; x<6;x++ )
         alert("Incorrect");
     }
 }
+}
+q7();
+
 document.write('<br>')
 
 
