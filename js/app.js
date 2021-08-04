@@ -8,7 +8,8 @@ console.log("Welcome " + Name);
 
 let score = 0;
 
-
+//q1
+function q1(){
 let eat = prompt("Emad Like To Eat Mansaf?").toLowerCase();
 switch (eat) {
     case 'yes':
@@ -29,9 +30,13 @@ switch (eat) {
 
         break;
 }
+}
+q1();
 
 document.write('<br>')
 
+//q2
+function q2(){
 let wakeUp = prompt("Emad Like To Get Up Early?").toLowerCase();
 switch (wakeUp) {
     case 'yes':
@@ -53,9 +58,13 @@ switch (wakeUp) {
 
         break;
 }
+}
+q2();
 
 document.write('<br>')
 
+//q3
+function q3(){
 let Song = prompt("Emad Like To Listen To Songs?").toLowerCase();
 switch (Song) {
     case 'yes':
@@ -77,9 +86,13 @@ switch (Song) {
 
         break;
 }
+}
+q3();
 
 document.write('<br>')
 
+//q4
+function q4(){
 let Sports = prompt("Emad Like To Play Sports?").toLowerCase();
 switch (Sports) {
     case 'yes':
@@ -101,9 +114,13 @@ switch (Sports) {
 
         break;
 }
+}
+q4();
 
 document.write('<br>')
 
+//q5
+function q5(){
 let Movies = prompt("Emad Like To Watch Movies?").toLowerCase();
 switch (Movies) {
     case 'yes':
@@ -125,9 +142,13 @@ switch (Movies) {
 
         break;
 }
+}
+q5();
 
 document.write('<br>')
 
+//q6
+function q6(){
 alert("Lets Play A Guessing game:");
 
 let PickNumber;
@@ -186,9 +207,13 @@ if(PickNumber !== correctAnswer)
 //         }
 //     }
 // }
+}
+q6();
 
 document.write('<br>')
 
+//q7
+function q7(){
 let myFavoritePlayer = ["Messi", "Ronaldo", "Salah", "Mbappe", "Lewandowski", "Kane", "Benzema"];
 // let Answer = prompt("Who is My Best Actor \n 1.Robert De Niro \n 2.Tom Hanks \n 3.Anthony Hopkins \n 4.Denzel Washington \n 5.Robin Williams \n 6.Morgan Freeman \n 7.Russell Crowe.");
 
@@ -230,6 +255,9 @@ for(let x=0 ; x<6;x++ )
         alert("Incorrect");
     }
 }
+}
+q7();
+
 document.write('<br>')
 
 
