@@ -63,6 +63,8 @@ q2();
 
 document.write('<br>')
 
+//q3
+function q3(){
 let Song = prompt("Emad Like To Listen To Songs?").toLowerCase();
 switch (Song) {
     case 'yes':
@@ -84,6 +86,8 @@ switch (Song) {
 
         break;
 }
+}
+q3();
 
 document.write('<br>')
 
