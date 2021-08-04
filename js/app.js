@@ -8,7 +8,8 @@ console.log("Welcome " + Name);
 
 let score = 0;
 
-
+//q1
+function q1(){
 let eat = prompt("Emad Like To Eat Mansaf?").toLowerCase();
 switch (eat) {
     case 'yes':
@@ -29,6 +30,8 @@ switch (eat) {
 
         break;
 }
+}
+q1();
 
 document.write('<br>')
 
