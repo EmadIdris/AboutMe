@@ -35,6 +35,8 @@ q1();
 
 document.write('<br>')
 
+//q2
+function q2(){
 let wakeUp = prompt("Emad Like To Get Up Early?").toLowerCase();
 switch (wakeUp) {
     case 'yes':
@@ -56,6 +58,8 @@ switch (wakeUp) {
 
         break;
 }
+}
+q2();
 
 document.write('<br>')
 
