@@ -91,6 +91,8 @@ q3();
 
 document.write('<br>')
 
+//q4
+function q4(){
 let Sports = prompt("Emad Like To Play Sports?").toLowerCase();
 switch (Sports) {
     case 'yes':
@@ -112,6 +114,8 @@ switch (Sports) {
 
         break;
 }
+}
+q4();
 
 document.write('<br>')
 
