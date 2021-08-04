@@ -119,6 +119,8 @@ q4();
 
 document.write('<br>')
 
+//q5
+function q5(){
 let Movies = prompt("Emad Like To Watch Movies?").toLowerCase();
 switch (Movies) {
     case 'yes':
@@ -140,6 +142,8 @@ switch (Movies) {
 
         break;
 }
+}
+q5();
 
 document.write('<br>')
 
