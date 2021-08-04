@@ -147,6 +147,8 @@ q5();
 
 document.write('<br>')
 
+//q6
+function q6(){
 alert("Lets Play A Guessing game:");
 
 let PickNumber;
@@ -205,6 +207,8 @@ if(PickNumber !== correctAnswer)
 //         }
 //     }
 // }
+}
+q6();
 
 document.write('<br>')
 
