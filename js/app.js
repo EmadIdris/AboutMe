@@ -131,33 +131,61 @@ document.write('<br>')
 alert("Lets Play A Guessing game:");
 
 let PickNumber;
-
-for (let i = 0; i < 4; i++) {
+ let correctAnswer = 7;
+for (let i = 0; i < 4; i++) 
+{
     PickNumber = Number(prompt("guessing game:  "));
 
-    if (PickNumber === 7) {
+    if (PickNumber === correctAnswer) {
         alert("Thats Right");
         console.log("Correct Answer " + PickNumber);
         document.write("Q6:correct Answer")
         score+=1 ;
         break;
     }
-    else if (PickNumber > 7) {
+    else if (PickNumber > correctAnswer) {
         alert("Too High")
         document.write("Q6:Too High")
     }
-    else if (PickNumber < 7) {
+    else if (PickNumber < correctAnswer) {
         alert("Too Low")
         document.write("Q6:Too Low")
     }
     else {
         document.write("Q6:Incorrect Answer")
     }
+    // اجابة صحيحة 
+    // if (i === 3)
+    // {
+    //     alert('The Correct Answer is = ${correctAnswer}');
+    // }
 
 }
 
-alert("The Right Answer is Number 7");
+if(PickNumber !== correctAnswer)
+{
+    alert(`The Right Answer is Number = ${correctAnswer}` );
+}
 
+// الاجابة الصحيحة
+// let favFruit = ['apple' ,'orange' , 'mango'];
+// let Q7;
+// for (let i=1; i<=6;i++)
+// {
+//     Q7 = prompt("Tell me What is my fav fruit");
+//     for(let j=0 ; j< favFruit.length;j++)
+//     {
+//         if(Q7 === favFruit[j])
+//         {
+//             alert("Correct");
+//             i = 7 ; 
+//             //علشان اطلع من الاتنين لوب
+//             // ال i هتبقي 8
+//             break;
+
+//         }
+//     }
+// }
 
 document.write('<br>')
 
