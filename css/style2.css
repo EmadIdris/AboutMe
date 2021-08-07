@@ -1,0 +1,42 @@
+body
+{
+    background-color: black;
+}
+body header
+{
+    border-bottom:5px outset #46393d ;
+    background-color:black;
+}
+header h1
+{
+    color: red;
+    font-size: 80px;
+    text-align: center;
+    padding: 15px;
+}
+#sc 
+{
+    position: relative;
+    color: red;
+    top: 10px;
+    border-style:solid ;
+    border-color: black;
+    border-width: 2px;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+body main div img
+{
+    float: left;
+    margin-top: 25px;
+    height: 300px;
+    width: 300px;
+    margin-left: 8px;
+    
+}
+li
+{
+    padding: 12px;
+}

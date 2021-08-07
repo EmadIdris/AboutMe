@@ -1,103 +1,156 @@
 body
 {
-    background-color: black;
+    background-color:black;
 }
 header
 {
-    
-    /* margin-left: -8px;
-    margin-top: -7px;
-    margin-right: -8px; */
-    border: 3px solid gold ;
-    box-shadow: 5px 10px gold;
-    padding: 20px;
-    
-}
-h1
-{
-    font-size: 3em;
-    /* display: inline-block; */
-    color: gold;
-    font-variant: small-caps;
+    background-color: red;
+    /* background-color: rgb(217, 228, 228); */
+    position: relative;
+    /* border: 3px solid white ; */
+    /* box-shadow: 5px 10px #46393d; */
+    padding: 27px;
     text-align: center;
 
 }
-
-
-#sc
+header nav a
 {
-    border-width:5px;  
-    border-style:double;
-    text-align: center;
-font-style: italic;
-font-size:20px;
-margin-top: 20px;
-margin-right: 0%;
-margin-left: 0%;
-margin-bottom: 20px;
-/* border-radius: 25px; */
-letter-spacing: 4px;
-color: gold;
-padding: 10px;
+    color :black;
+    padding: 23px;
+    font-size: 40px;
+    text-decoration: none;  
 }
-/* #para */
-  /* { */
-      /* margin-top: 12px; */
-  /* border-width:5px;  
-    border-style:double;
-text-align: center;
-font-style: italic;
-font-size:25px;
-letter-spacing: 4px;
-color: gold;
-margin-bottom: 20px;
-padding: 5px; */
-  /* } */
+header nav a:hover
+{
+    color: red;
+    background-color:black;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  top: 5px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: white;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 2.5}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 2.5}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
   footer
 {
   
-  color: gold;
+  color: black;
   text-align: center;
-  border-color: gold;
-    border-width: 4px;
+  border-color: #46393d;
+    border-width: 3px;
     border-style: ridge;
-/* border-radius: 100px; */
-    font-family: "Sofia", sans-serif;
+    font-family: 'Libre Barcode 128 Text', cursive;
     padding: 20px;
     margin-right: 0%;
     margin-left: 0%;
-    font-size: 30px;
-    /* margin-left: -8px;
-    margin-right: -8px;
-    margin-top: 3px;
-    margin-bottom: 3px; */
+    font-size: 60px;
+    /* font-weight: bold; */
+    background-color: red;
+    
+    
 }
+
 ol
 {
-    border-width:5px;  
-    border-style:double;
-    text-align: center;
-
+border-width:5px;  
+border-style:double;
+border-color:black ;
+text-align: center;
 font-size:25px;
 margin-left: 0px;
 margin-right: 0px;
 margin-bottom: 20px;
-/* border-radius: 25px; */
 letter-spacing: 4px;
-color: gold;
+color: red;
 padding: 10px;
+margin-top: 15px;
 
 }
  #AA
  {
-     color: goldenrod;
+     color:white;
      padding-left: 15px;
+     font-size: 15px;
+     
  }
+ /* #AA:hover
+ {
+     background-color: yellow;
+     color: #364F6B;
+     padding: 5px;
+ } */
  #TT
  {
     font-size: 2em;
     display: block;
-    color: gold;
+    color: red;
     font-variant: small-caps;
     text-align: center;
     

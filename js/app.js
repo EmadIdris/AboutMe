@@ -3,7 +3,7 @@ let Name = prompt("Enter Your Name : ");
 alert("Welcome " + Name);
 alert("Questions about Emad \n Answer Yes/y  Or No/n  ");
 document.write("Welcome " + Name);
-document.write('<hr>')
+document.write('<br>')
 console.log("Welcome " + Name);
 
 let score = 0;
@@ -265,7 +265,7 @@ alert("The Correct Answers is : \n Messi \n Ronaldo \n Salah \n Mbappe \n Lewand
 
 alert("Your Score is " + score +" out of 7");
 console.log("Your Score is " + score +" out of 7");
-document.write('<br>');
+// document.write('<br>');
 document.write("Your Score is " + score +" out of 7");
 
 

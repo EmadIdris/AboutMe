@@ -5,58 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="FavIcon/icons8-home-100.png" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
     <header>
-        <h1>About Me</h1>
-
+        <nav id="Links">
+            <ul>
+                <a href="aboutme.html" target="_blank">Guess Me</a>
+                <a href="#TagMovie">My Lovely Movie</a>
+                <a href="#TagOwner">Owner Is</a>
+            </ul>
+        </nav>
     </header>
     <main>
 
-        <div id="sc">
-            <script src="js/app.js"></script>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 10</div>
+                <img src="ImageForIndexMovie/The Shawshank Redemption.jpg" style="width:100%">
+                <div class="text">The Shawshank Redemption</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 10</div>
+                <img src="ImageForIndexMovie/The Dark Knight.jpg" style="width:100%">
+                <div class="text">The Dark Knight</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 10</div>
+                <img src="ImageForIndexMovie/12 Angry Men.jpg" style="width:100%">
+                <div class="text">12 Angry Men</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 10</div>
+                <img src="ImageForIndexMovie/The Lord of the Rings.jpg" style="width:100%">
+                <div class="text">The Lord of the Rings: The Return of the King</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 10</div>
+                <img src="ImageForIndexMovie/The Green Mile.jpg" style="width:100%">
+                <div class="text">The Green Mile</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 10</div>
+                <img src="ImageForIndexMovie/Whiplash.jpg" style="width:100%">
+                <div class="text">Whiplash</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 10</div>
+                <img src="ImageForIndexMovie/Prisoners.jpg" style="width:100%">
+                <div class="text">Prisoners</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 10</div>
+                <img src="ImageForIndexMovie/The Dark Knight Rises.jpg" style="width:100%">
+                <div class="text">The Dark Knight Rises</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 10</div>
+                <img src="ImageForIndexMovie/No Country for Old Men.jpg" style="width:100%">
+                <div class="text">No Country for Old Men</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 10</div>
+                <img src="ImageForIndexMovie/Warrior.jpg" style="width:100%">
+                <div class="text">Warrior</div>
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+
         </div>
 
-        <ul style="
-                        color: gold;
-                        border-width:5px;  
-    border-style:double;
-text-align: center;
-font-style: italic;
-font-size:25px;
-letter-spacing: 4px;
-margin-bottom: 20px;
-padding: 5px;
-            ">
-             <h1 id="TT">Biography</h1>
-            <li>My name is Emad Idris, I am 23 years old</li>
-            <li>I am Palestinian</li>
-            <li>I graduated with a Bachelor of Computer
-                Science from the Higher Institute of Computer Science and Information Systems with a Good grade from
-                Cairo, Egypt in 2020</li>
-            <li>I trained at STS in Amman, Jordan for two months in 2018 in the field of web
-                development</li>
-            <li>I took a course in the field of web development in Cairo, Egypt for five months in
-                2019.</li>
-            <li> I want to gain more and more information in this field</li>
-            <li>I would like to develop myself in my
-                field of work and be better than before</li>
 
-        </ul>
-
-
-
-
-        <ol>
+        <ol id="TagMovie">
             <h1 id="TT">My Top Ten Movie</h1>
             <li>1.The Shawshank Redemption<a id="AA"
                     href="https://www.imdb.com/title/tt0111161/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=SJBQ7NYJDPDM2RGKY27E&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_1">IMDB
@@ -65,8 +114,7 @@ padding: 5px;
             <li>2.The Dark Knight<a id="AA"
                     href="https://www.imdb.com/title/tt0468569/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=SJBQ7NYJDPDM2RGKY27E&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_4">IMDB
                     Rate</a></li>
-            <li>3.12 Angry Men<a id="AA"
-                    href="https://www.imdAdhb.com/title/tt0050083/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=SJBQ7NYJDPDM2RGKY27E&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_5">IMDB
+            <li>3.12 Angry Men<a id="AA" href="https://www.imdb.com/title/tt0050083/?ref_=nv_sr_srsg_0">IMDB
                     Rate</a></li>
             <li>4.The Lord of the Rings: The Return of the King<a id="AA"
                     href="https://www.imdb.com/title/tt0167260/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=SJBQ7NYJDPDM2RGKY27E&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_7">IMDB
@@ -93,18 +141,14 @@ padding: 5px;
                     href="https://www.imdb.com/title/tt1291584/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=SJBQ7NYJDPDM2RGKY27E&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_173">IMDB
                     Rate</a></li>
         </ol>
-
-
-
-
     </main>
-    <footer>
-        <p style="text-align: center;"> ©EmadIdris</p>
+    <footer id="TagOwner">
+        <p style="text-align: center;"> EmadIdris</p>
     </footer>
 
 
 
 </body>
-
+<script src="js/appForIndex.js"></script>
 
 </html>
