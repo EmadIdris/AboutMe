@@ -175,11 +175,7 @@ for (let i = 0; i < 4; i++)
     else {
         document.write("Q6:Incorrect Answer")
     }
-    // اجابة صحيحة 
-    // if (i === 3)
-    // {
-    //     alert('The Correct Answer is = ${correctAnswer}');
-    // }
+    
 
 }
 
@@ -188,25 +184,7 @@ if(PickNumber !== correctAnswer)
     alert(`The Right Answer is Number = ${correctAnswer}` );
 }
 
-// الاجابة الصحيحة
-// let favFruit = ['apple' ,'orange' , 'mango'];
-// let Q7;
-// for (let i=1; i<=6;i++)
-// {
-//     Q7 = prompt("Tell me What is my fav fruit");
-//     for(let j=0 ; j< favFruit.length;j++)
-//     {
-//         if(Q7 === favFruit[j])
-//         {
-//             alert("Correct");
-//             i = 7 ; 
-//             //علشان اطلع من الاتنين لوب
-//             // ال i هتبقي 8
-//             break;
-
-//         }
-//     }
-// }
+/
 }
 q6();
 
@@ -215,11 +193,9 @@ document.write('<br>')
 //q7
 function q7(){
 let myFavoritePlayer = ["Messi", "Ronaldo", "Salah", "Mbappe", "Lewandowski", "Kane", "Benzema"];
-// let Answer = prompt("Who is My Best Actor \n 1.Robert De Niro \n 2.Tom Hanks \n 3.Anthony Hopkins \n 4.Denzel Washington \n 5.Robin Williams \n 6.Morgan Freeman \n 7.Russell Crowe.");
 
 for(let x=0 ; x<6;x++ )
 {
-    // let z = 0; 
     let Answer = prompt("Who is My Best Player : ");
     let y;
     for (y = 0; y < myFavoritePlayer.length; y++) 
@@ -229,21 +205,13 @@ for(let x=0 ; x<6;x++ )
             alert("Correct Answer");
             console.log("The Correct Answer "+ Answer) 
             document.write("Q7:Answer  is : " + Answer)
-            // z+=1;
-            // if(z == 2) {
-            //     break;
-            // }
+            
              score+=1 ;
              
              break;
          } 
          
-        //  else if (Answer === myFavoritePlayer[y])
-        // {
-        //     alert("Correct Answer")
-        //     console.log("The Correct answer" + Answer)
-        //     document.write("Q7:Answer  is : " + Answer) 
-        // }  
+       
         
     }
     if (Answer === myFavoritePlayer[y])
@@ -265,7 +233,6 @@ alert("The Correct Answers is : \n Messi \n Ronaldo \n Salah \n Mbappe \n Lewand
 
 alert("Your Score is " + score +" out of 7");
 console.log("Your Score is " + score +" out of 7");
-// document.write('<br>');
 document.write("Your Score is " + score +" out of 7");
 
 
